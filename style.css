@@ -1,0 +1,126 @@
+html, body{
+    font-family: 'Poppins', sans-serif;
+}
+.common-heading{
+    font-size: 30px;
+    font-weight: 500;
+    color: #1F1F1F;
+}
+.see-all{
+    font-size: 22px;
+    font-weight: 500;
+    color: #FF9D00;
+    cursor: pointer;
+}
+a{
+    text-decoration: none!important;
+}
+/* Common Css end here  */
+.navbar-nav .nav-link{
+    font-size: 18px;
+    color: #707070;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover{
+    color: black;
+}
+/* Navbar Css End  */
+
+.banner-txt{
+    background: url(images/header-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-indicators li{
+    background-color: #FF9D00;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.banner-txt h1{
+    color: #1F1F1F;
+    font-size: 41px;
+    font-weight: 500;
+}
+.banner-txt p{
+    color: #707070;
+    font-size: 18px;
+    font-weight: 300;
+}
+.banner-txt a{
+    padding: 10px 20px;
+    color: #f2f2f2;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+/* banner css end */
+
+.smartphone-1 h2{
+    font-size: 24px;
+    color: #1F1F1F;
+    font-weight: 500;
+}
+.smartphone-1 p{
+    font-size: 16px;
+    color: #707070;
+    font-weight: 300;  
+}
+.smartphone-1 h3{
+    font-size: 24px;
+    color: #1F1F1F;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.smartphone-1 a{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-img-top {
+    width: 90%;
+    padding: 10%;
+}
+/* Smartphone css end  */
+
+.category-heading{
+    font-size: 30px;
+    font-weight: 500;
+    color: #1F1F1F;
+    position: relative;
+}
+.category-heading::before{
+    content: "";
+    height: 7px;
+    background-image: linear-gradient(to left, #FF9D00, #f0a021);
+    position: absolute;
+    width: 12%;
+    bottom: -49%;
+    right: 42.5%;
+    border-radius: 20px;
+}
+.category-1 img{
+    box-shadow: 5px 5px 10px lightgray;
+    padding: 10%;
+}
+
+.img1{
+    position: absolute;
+}
+
+/* Category part End  */
+#footer h3{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px 0;
+}
